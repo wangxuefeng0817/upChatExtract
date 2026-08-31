@@ -1,0 +1,27 @@
+config.yaml
+state.json
+monitor.log
+*.log
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+config.local.*
+config.yaml.*
+state.json.*
+pip-build-tracker-*/
+pip-ephem-wheel-cache-*/
+pip-install-*/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# 构建产物
+build/
+dist/
+*.spec
+
+# 本地开发与助手工作目录（不入库）
+.omo/
+docs/superpowers/
